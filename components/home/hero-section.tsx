@@ -50,7 +50,6 @@ export function HeroSection({
             >
               From Idea to Factory-Ready In Minutes.
               <br />
-              <span className="font-bold">Tech Packs & Products with AI</span>
             </h1>
             <p
               className="text-[16px] lg:text-[18px] font-normal leading-[1.48] mx-auto max-w-[632px] px-[25px] pt-[20px]"
