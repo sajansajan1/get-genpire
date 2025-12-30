@@ -25,11 +25,14 @@ export function CTASection({ setIsAuthModalOpen, setIsDemoModalOpen }: CTASectio
             {/* Text */}
             <div className="flex flex-col gap-4 text-center">
               <h2 className="font-semibold text-[24px] lg:text-[28px] leading-[1.28] text-white">
-                <span className="md:whitespace-nowrap">Create your tech packs in minutes, instead of weeks.</span>
+                <span className="md:whitespace-nowrap">
+                  Create factory-ready products and collections in minutes — not weeks.
+                </span>
                 <br />
-                Prepare them for manufacturing
               </h2>
-              <p className="text-lg leading-[1.48] text-[#98989A]">All in one agentic platform.</p>
+              <p className="text-lg leading-[1.48] text-[#98989A]">
+                Everything your manufacturer needs, generated automatically in one workflow.
+              </p>
             </div>
 
             {/* Buttons */}
@@ -53,7 +56,7 @@ export function CTASection({ setIsAuthModalOpen, setIsDemoModalOpen }: CTASectio
               >
                 Start Creating
               </button>
-
+              {/* 
               <button
                 className="
                   w-full sm:w-auto
@@ -70,7 +73,7 @@ export function CTASection({ setIsAuthModalOpen, setIsDemoModalOpen }: CTASectio
                 onClick={() => setIsDemoModalOpen(true)}
               >
                 Explore Examples
-              </button>
+              </button> */}
             </motion.div>
           </motion.div>
         </div>
