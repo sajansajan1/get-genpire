@@ -48,7 +48,7 @@ export function HeroSection({
               className="font-bold lg:font-normal text-[32px] md:text-[40px] lg:text-[48px] leading-[1.28] break-words whitespace-normal"
               style={{ color: "#000000" }}
             >
-              Create Factory-Ready
+              From Idea to Factory-Ready In Minutes.
               <br />
               <span className="font-bold">Tech Packs & Products with AI</span>
             </h1>
@@ -56,8 +56,9 @@ export function HeroSection({
               className="text-[16px] lg:text-[18px] font-normal leading-[1.48] mx-auto max-w-[632px] px-[25px] pt-[20px]"
               style={{ color: "#57534E" }}
             >
-              Genpire is the first agentic platform that brings design, tech packs, and manufacturing into a single
-              workflow, so makers, brands, and enterprise teams can go from concept to factory-floor 10x faster.
+              Design real products with AI - and instantly generate factory-ready files your manufacturer understands.
+              We’re reinventing the design-to-factory workflow for the next generation of brands and product creators
+              and you're welcome to join.
             </p>
           </div>
 
@@ -71,8 +72,9 @@ export function HeroSection({
                   color: "#FFFFFF",
                 }}
               >
-                Start Creating
+                Create Your First Product
               </button>
+              <p>*No credit-card required (bellow the button)</p>
               {/* 
               <button
                 className="w-full sm:w-auto px-[32px] py-[12px] text-[15px] font-semibold leading-5 rounded-xl transition-transform hover:scale-105 cursor-pointer whitespace-nowrap"
