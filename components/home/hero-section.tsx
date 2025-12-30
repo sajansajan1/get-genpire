@@ -62,7 +62,7 @@ export function HeroSection({
           </div>
 
           <div className="hidden md:flex flex-col items-center mt-[32px] lg:mt-[40px] w-full md:w-[440px] px-4">
-            <div className="flex flex-col sm:flex-row gap-[12px] w-full">
+            <div className="flex flex-col  gap-[12px] w-full">
               <button
                 onClick={() => setIsAuthModalOpen(true)}
                 className="w-full sm:w-auto px-[32px] py-[12px] text-[15px] font-semibold leading-5 rounded-xl whitespace-nowrap transition-transform hover:scale-105 cursor-pointer"
@@ -73,8 +73,8 @@ export function HeroSection({
               >
                 Start Creating
               </button>
-
-              {/* <button
+              {/* 
+              <button
                 className="w-full sm:w-auto px-[32px] py-[12px] text-[15px] font-semibold leading-5 rounded-xl transition-transform hover:scale-105 cursor-pointer whitespace-nowrap"
                 onClick={() => setIsDemoModalOpen(true)}
                 style={{
@@ -425,7 +425,7 @@ export function HeroSection({
                 Start Creating
               </button>
 
-              <button
+              {/* <button
                 className="w-full px-[32px] py-[12px] text-[15px] font-semibold leading-5 rounded-xl transition-transform hover:scale-105 cursor-pointer whitespace-nowrap"
                 onClick={() => setIsDemoModalOpen(true)}
                 style={{
@@ -435,7 +435,7 @@ export function HeroSection({
                 }}
               >
                 Watch a 60-seconds Demo
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
