@@ -74,7 +74,7 @@ export function HeroSection({
                 Start Creating
               </button>
 
-              <button
+              {/* <button
                 className="w-full sm:w-auto px-[32px] py-[12px] text-[15px] font-semibold leading-5 rounded-xl transition-transform hover:scale-105 cursor-pointer whitespace-nowrap"
                 onClick={() => setIsDemoModalOpen(true)}
                 style={{
@@ -84,7 +84,7 @@ export function HeroSection({
                 }}
               >
                 Watch a 60-seconds Demo
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
