@@ -51,13 +51,13 @@ export function PlatformSection() {
                 className="pt-[28px] md:pt-[40px] text-[28px] md:text-[44px] font-bold leading-[1.28] ps-[12px]"
                 ref={sectionRef}
               >
-                One platform for every{" "}
+                One platform for creating real, manufacturable products across consumer categories
                 <motion.span className="text-[#AEADAD]" style={{ color: animatedColor }}>
-                  physical
+                  consumer categories
                 </motion.span>
                 <br />
                 <motion.span className="text-[#AEADAD]" style={{ color: animatedColor }}>
-                  product category, literally
+                  From fashion to furniture — Genpire adapts to how each product is actually made.
                 </motion.span>
               </h2>
             </div>
