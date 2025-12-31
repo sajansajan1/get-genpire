@@ -51,7 +51,7 @@ export function PlatformSection() {
                 className="pt-[28px] md:pt-[40px] text-[28px] md:text-[44px] font-bold leading-[1.28] ps-[12px]"
                 ref={sectionRef}
               >
-                One platform for creating real, manufacturable products across consumer categories
+                One platform for creating real, manufacturable products across
                 <motion.span className="text-[#AEADAD]" style={{ color: animatedColor }}>
                   consumer categories
                 </motion.span>
